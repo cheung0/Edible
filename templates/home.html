@@ -1,0 +1,45 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+    </head>
+{% extends "base.html" %}
+
+
+{% block body %}
+
+<div class="my-5 row">
+    <h1 class="text-center col-md-12">Let's Stop Food Waste Today!</h1>
+</div>
+
+<form action="/" method="post" class="text-center col-md-12">
+    <div class="form-group">
+        <input id='username' autocomplete="off" autofocus class="form-control" name="ingredient" placeholder="Ingredient" type="text">
+    </div>
+    <button id='submit' class="btn btn-primary" type="submit">Add Ingredient</button>
+</form>
+
+<br>
+
+<form action="/recipe" method="get" class="text-center col-md-12">
+    <button id='submit' class="btn btn-primary" type="submit">Generate Recipes!</button>
+</form>
+
+<ul class="list-group list-group-horizontal-sm">
+    {% for ingredient in ingredients %}
+
+        <li class="list-group-item">{{ingredient}}</li>
+
+
+    {% endfor %}
+</ul>
+
+<img src="{{ url_for('static', filename='ingredient.jpg') }}" width="540" height="270"class="center"/>
+
+
+{% endblock %}
