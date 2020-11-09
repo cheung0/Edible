@@ -2,12 +2,15 @@ import requests
 import json
 from flask import Flask, request, render_template, redirect
 
+
 app = Flask(__name__)
 app.config['DEBUG'] = True
 
-# global variable with all the ingredients
+
+# global variables with all the ingredients and recipe id
 ingredients = []
 recipe_id = []
+
 
 @app.route('/', methods = ['GET', 'POST'])
 def home():
@@ -18,6 +21,7 @@ def home():
         ingredients.append(ingredient)
         return redirect('/')
 
+    
 # go here to show all the recipes
 @app.route('/recipe', methods = ['GET', 'POST'])
 def recipe():
@@ -44,10 +48,12 @@ def recipe():
 
     return render_template('recipe.html', recipes = recipes)
 
+
 recipe = 'test'
 @app.route('/price', methods = ['GET', 'POST'])
 def price():
     """
+    returns the recipe information based on recipe id 
     api_key = '306d1933bfd54f199ec9ce5b4888b79d'
     base_url = 'https://api.spoonacular.com/recipes/findByIngredients?apiKey=306d1933bfd54f199ec9ce5b4888b79d&ingredients='
     x = 'https://api.spoonacular.com/recipes/'
@@ -66,6 +72,7 @@ def price():
     }
     
     return render_template('price.html', ingredient = ingredient)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
