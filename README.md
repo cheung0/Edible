@@ -1,5 +1,5 @@
 ## Demo
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4XtFWdiAKrE/0.jpg)](https://youtu.be/4XtFWdiAKrE?t=2)
+[![IMAGE ALT TEXT HERE](demo.png)](https://youtu.be/4XtFWdiAKrE?t=2)
 <HTML>
     <iframe width="560" height="315"
 src="https://youtu.be/4XtFWdiAKrE?t=2" 
