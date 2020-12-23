@@ -1,4 +1,7 @@
 ## Demo
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4XtFWdiAKrE/0.jpg)](https://youtu.be/4XtFWdiAKrE)
+
+## Links
 https://devpost.com/software/edible-jisdl2
 
 https://www.youtube.com/watch?v=4XtFWdiAKrE&ab_channel=MikeC
