@@ -1,12 +1,5 @@
 ## Demo
 [![IMAGE ALT TEXT HERE](demo.png)](https://youtu.be/4XtFWdiAKrE?t=2)
-<HTML>
-    <iframe width="560" height="315"
-src="https://youtu.be/4XtFWdiAKrE?t=2" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-<HTML/>
 
 ## Links
 https://devpost.com/software/edible-jisdl2
