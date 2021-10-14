@@ -1,10 +1,9 @@
 ## Demo
-[![IMAGE ALT TEXT HERE](demo.png)](https://youtu.be/4XtFWdiAKrE?t=2)
+[![IMAGE ALT TEXT HERE](demo.png)]()
 
 ## Links
 https://devpost.com/software/edible-jisdl2
 
-https://youtu.be/4XtFWdiAKrE?t=2
 
 ## Inspiration
 Here's some food for thought. 1 in 4 people in San Francisco are food insecure, with many of them from underrepresented groups. Surprising right? Now let me add a startling fact: 40% of food in the country, including the Bay Area, is never eaten and thrown away! So all this food is being thrown away, while there are people still starving! I hope to help alleviate this food waste problem in the Bay Area with Edible.
